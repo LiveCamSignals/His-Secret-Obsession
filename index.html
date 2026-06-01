@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>His Secret Obsession | Unlock The Hero Instinct</title>
+    <meta name="description" content="Discover the 12-word text that triggers a man's Hero Instinct and makes him deeply desire you. Free presentation inside."/>
+    <style>
+        :root {
+            --primary: #e91e63;
+            --primary-dark: #c2185b;
+            --secondary: #212121;
+            --light: #f8f9fa;
+            --gray: #757575;
+            --white: #ffffff;
+            --shadow: 0 4px 20px rgba(0,0,0,0.15);
+            --radius: 12px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--secondary);
+            background: var(--white);
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        header span {
+            display: block;
+            font-size: 0.95rem;
+            opacity: 0.95;
+            margin-top: 4px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #fce4ec 0%, #fff 100%);
+            padding: 50px 0;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.4rem;
+            margin-bottom: 20px;
+            color: var(--secondary);
+            line-height: 1.3;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            color: var(--gray);
+        }
+        .highlight {
+            background: linear-gradient(120deg, #ffecf3, #ffe0ee);
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+
+        /* CTA Button */
+        .cta-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            font-size: 1.25rem;
+            font-weight: 700;
+            padding: 18px 45px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 6px 25px rgba(233, 30, 99, 0.4);
+            transition: all 0.3s ease;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 35px rgba(233, 30, 99, 0.6);
+        }
+        .cta-btn.secondary {
+            background: var(--white);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        .cta-btn.secondary:hover {
+            background: #fff5f8;
+        }
+
+        /* Video Placeholder */
+        .video-section {
+            background: var(--white);
+            padding: 40px 0;
+            text-align: center;
+        }
+        .video-box {
+            max-width: 800px;
+            margin: 0 auto 25px;
+            background: #000;
+            border-radius: var(--radius);
+            aspect-ratio: 16/9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.1rem;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+        .video-box::before {
+            content: "▶";
+            font-size: 4rem;
+            opacity: 0.9;
+        }
+        .video-note {
+            color: var(--gray);
+            font-size: 0.95rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Benefits Grid */
+        .benefits {
+            padding: 50px 0;
+            background: var(--light);
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            color: var(--secondary);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: var(--white);
+            padding: 25px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        .card h3 {
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+
+        /* Testimonial */
+        .testimonial {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            padding: 50px 0;
+            text-align: center;
+        }
+        .quote {
+            font-size: 1.4rem;
+            font-style: italic;
+            max-width: 800px;
+            margin: 0 auto 20px;
+            line-height: 1.5;
+        }
+        .author {
+            font-weight: 600;
+            opacity: 0.95;
+        }
+
+        /* Offer Section */
+        .offer {
+            padding: 60px 0;
+            text-align: center;
+            background: var(--white);
+        }
+        .price-box {
+            background: linear-gradient(135deg, #fff5f8, #fff);
+            border: 3px solid var(--primary);
+            border-radius: var(--radius);
+            padding: 30px;
+            max-width: 600px;
+            margin: 30px auto;
+            box-shadow: var(--shadow);
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: var(--gray);
+            font-size: 1.3rem;
+        }
+        .new-price {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            margin: 10px 0;
+        }
+        .guarantee {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            color: var(--gray);
+            font-size: 0.95rem;
+        }
+        .guarantee-badge {
+            background: #4caf50;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* FAQ */
+        .faq {
+            padding: 50px 0;
+            background: var(--light);
+        }
+        .faq-item {
+            background: var(--white);
+            margin-bottom: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .faq-question {
+            padding: 18px 25px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-answer {
+            padding: 0 25px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            color: var(--gray);
+        }
+        .faq-item.active .faq-answer {
+            padding: 0 25px 20px;
+            max-height: 500px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--secondary);
+            color: rgba(255,255,255,0.8);
+            padding: 40px 0 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 8px;
+        }
+        .disclaimer {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.15);
+            font-size: 0.8rem;
+            opacity: 0.85;
+            line-height: 1.5;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h2 { font-size: 2rem; }
+            .hero p { font-size: 1.1rem; }
+            .cta-btn { 
+                width: 90%; 
+                padding: 16px; 
+                font-size: 1.15rem;
+            }
+            .new-price { font-size: 2.5rem; }
+        }
+
+        /* Animation */
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.4); }
+            70% { box-shadow: 0 0 0 15px rgba(233, 30, 99, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(233, 30, 99, 0); }
+        }
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>✨ His Secret Obsession ✨</h1>
+            <span>By James Bauer • Relationship Expert</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Discover the <span class="highlight">#1 Reason Men Pull Away</span><br>And How to Make Him <strong>Deeply Desire You</strong></h2>
+            <p>Learn the powerful <span class="highlight">12-word text message</span> that triggers a man's primal "Hero Instinct" — making you his #1 priority.</p>
+            
+            <a href="https://f29374s8x0p-8uc3nit1dgsm7f.hop.clickbank.net/?cbpage=1" class="cta-btn pulse" target="_blank" rel="nofollow">
+                ▶ Watch Free Presentation Now
+            </a>
+            <br>
+            <a href="https://98c946v7v706z8m8td14gjjd08.hop.clickbank.net/?cbpage=17" class="cta-btn secondary" target="_blank" rel="nofollow">
+                🔐 Get Instant Access - $47
+            </a>
+            <p style="margin-top:15px; font-size:0.95rem; color:var(--gray);">
+                🔒 Secure Checkout • 60-Day Money-Back Guarantee
+            </p>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="video-box" aria-label="Free Video Presentation Placeholder">
+                <!-- Video would load from ClickBank -->
+            </div>
+            <p class="video-note">
+                <strong>Free 15-minute presentation</strong> reveals the secret signal that changes everything. 
+                No email required to watch.
+            </p>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">What You'll Discover Inside</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">💬</div>
+                    <h3>The 12-Word Text</h3>
+                    <p>A simple phrase that instantly re-ignites his interest and makes him chase you again — even if he's gone cold.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧠</div>
+                    <h3>The Hero Instinct</h3>
+                    <p>Unlock the biological drive that controls everything a man does. Trigger it, and he'll feel you're "The One."</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">✨</div>
+                    <h3>7 Secret Signals</h3>
+                    <p>Proven phrases & actions (like "The Glimpse Phrase" and "Damsel Signal") that work via text, call, or in-person.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">❤️</div>
+                    <h3>For Any Situation</h3>
+                    <p>Whether you're dating, in a relationship, or trying to get an ex back — these tools adapt to your story.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial">
+        <div class="container">
+            <p class="quote">"All I can say is 'wow'. This has made me look at my life in a whole new light!"</p>
+            <p class="author">— Shannon, Verified Student</p>
+        </div>
+    </section>
+
+    <!-- Offer -->
+    <section class="offer">
+        <div class="container">
+            <h2 class="section-title">Start Your Transformation Today</h2>
+            <p style="max-width:650px; margin:0 auto 20px; color:var(--gray);">
+                Join thousands of women who've rekindled passion, earned commitment, and built lasting love using these proven secrets.
+            </p>
+            
+            <div class="price-box">
+                <div class="old-price">Regular Price: $197</div>
+                <div class="new-price">$47</div>
+                <p style="margin-bottom:20px; color:var(--gray);">One-time payment • Lifetime access • Instant download</p>
+                
+                <a href="https://20ade0z9v6v262pbwc7dqmudbq.hop.clickbank.net/?cbpage=7" class="cta-btn pulse" target="_blank" rel="nofollow">
+                    ✅ Yes! I Want His Secret Obsession
+                </a>
+                
+                <div class="guarantee">
+                    <span class="guarantee-badge">✓ 60-Day Guarantee</span>
+                    <span>Love it or your money back — no questions asked</span>
+                </div>
+            </div>
+            
+            <p style="color:var(--gray); font-size:0.95rem;">
+                🔐 ClickBank Secure Checkout • Your privacy is protected
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Will this work for my situation? <span>+</span></div>
+                <div class="faq-answer">
+                    His Secret Obsession is based on universal male psychology. It's been successfully used by women who are dating, in long-term relationships, separated, or trying to reconnect with an ex.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Is this just another "texting trick"? <span>+</span></div>
+                <div class="faq-answer">
+                    No. While you'll learn powerful text phrases (like the famous 12-word signal), the program teaches deep emotional triggers rooted in evolutionary psychology — not gimmicks.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How do I access the program? <span>+</span></div>
+                <div class="faq-answer">
+                    Immediately after purchase, you'll get instant digital access to the full course (PDF + audio + bonus materials) via your secure member area. No shipping required.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">What if it doesn't work for me? <span>+</span></div>
+                <div class="faq-answer">
+                    You're protected by a full 60-day, 100% money-back guarantee. If you're not thrilled with your results, email support for a prompt refund — and you keep the program.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section style="background:linear-gradient(135deg, #fce4ec, #fff); padding:50px 0; text-align:center;">
+        <div class="container">
+            <h2 style="margin-bottom:20px;">Ready to Become His Secret Obsession?</h2>
+            <p style="max-width:600px; margin:0 auto 25px; color:var(--gray);">
+                Don't wait for him to change. Take the first step toward the love you deserve — today.
+            </p>
+            <a href="https://f29374s8x0p-8uc3nit1dgsm7f.hop.clickbank.net/?cbpage=1" class="cta-btn" target="_blank" rel="nofollow">
+                🎁 Watch Free Presentation First
+            </a>
+            <br><br>
+            <a href="https://98c946v7v706z8m8td14gjjd08.hop.clickbank.net/?cbpage=17" style="color:var(--primary); font-weight:600; text-decoration:none;" target="_blank" rel="nofollow">
+                Or Get Instant Access Now →
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>
+                <a href="#" onclick="return false;">Privacy Policy</a> • 
+                <a href="#" onclick="return false;">Terms & Conditions</a> • 
+                <a href="#" onclick="return false;">Contact</a> • 
+                <a href="#" onclick="return false;">Affiliate Disclosure</a>
+            </p>
+            <p style="margin:15px 0;">
+                © <span id="year"></span> Be Irresistible • All Rights Reserved
+            </p>
+            <div class="disclaimer">
+                <p>
+                    <strong>Disclaimer:</strong> Results vary. This program provides educational content about relationship psychology and is not a substitute for professional therapy. 
+                    Stories shared may be composites or changed to protect privacy. ClickBank is the retailer of this product; its role does not constitute endorsement.
+                </p>
+                <p style="margin-top:10px;">
+                    You must be 18+ to purchase. By using this site, you agree to our Terms and Privacy Policy.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // FAQ toggle
+        document.querySelectorAll('.faq-question').forEach(q => {
+            q.addEventListener('click', () => {
+                const item = q.parentElement;
+                item.classList.toggle('active');
+                q.querySelector('span').textContent = item.classList.contains('active') ? '−' : '+';
+            });
+        });
+        
+        // Smooth scroll for anchor links (if added later)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href'))?.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
